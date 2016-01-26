@@ -45,22 +45,23 @@ subset(pattern, stream [,invert])
 #### pattern : string | regex | function
 
 The pattern is either a string, regex or function.  If it is a function, it is passed
-a file and must return true if the file is to be processed, false otherwise.  
+a vinyl and must return true if the file is to be processed, false otherwise.  
 
 Passing a string pattern is a convience for the following matching function:
 
 ```javascript
-function (file) { 
-	return (file.relative.indexOf(pattern)>=0)
+function (vinyl) { 
+	return (vinyl.relative.indexOf(pattern)>=0)
 }
 ```
 
 Passing a regex pattern is a convience the following matching function:
 
 ```javascript
-function (file) {
-	return (file.relative.match(pattern))
+function (vinyl) {
+	return (vinyl.relative.match(pattern))
 }
+```
 
 #### stream
 
