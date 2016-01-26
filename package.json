@@ -1,7 +1,7 @@
 {
   "name": "gulp-subset",
   "version": "1.0.0",
-  "description": "'Run a gulp pipe operation on a subset of files in the stream'",
+  "description": "Process a subset of files in a gulp pipeline",
   "main": "index.js",
   "directories": {
     "test": "test"
