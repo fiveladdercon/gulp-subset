@@ -1,0 +1,38 @@
+{
+  "name": "gulp-subset",
+  "version": "1.0.0",
+  "description": "'Run a gulp pipe operation on a subset of files in the stream'",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiveladdercon/gulp-subset.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "filter",
+    "subset",
+    "grep",
+    "regex",
+    "partial",
+    "some"
+  ],
+  "author": "fiveladdercon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveladdercon/gulp-subset/issues"
+  },
+  "homepage": "https://github.com/fiveladdercon/gulp-subset#readme",
+  "devDependencies": {
+    "chai": "^3.4.1"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7"
+  }
+}
